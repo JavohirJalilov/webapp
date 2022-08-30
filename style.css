@@ -84,14 +84,3 @@ body {
   padding-left: 10px;
   transition: 0.2s ease all;
 }
-.btn {
-  height: 44px;
-  transition: 0.2s;
-  cursor: pointer;
-  border: 0;
-  border-radius: 3px;
-}
-.btn__dark {
-  background-color: #000;
-  color: #fff;
-}
