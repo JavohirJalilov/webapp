@@ -29,6 +29,8 @@ body {
 }
 .form-floating input, .form-floating textarea, .form-floating select {
   width: 100%;
+  height: 200px;
+  margin: 20.2px 0;
   min-width: 100%;
   max-width: 100%;
   border-radius: 3px;
@@ -41,9 +43,10 @@ body {
 .form-floating input:focus ~ label, .form-floating textarea:focus ~ label, .form-floating select:focus ~ label, .form-floating input:not(:placeholder-shown) ~ label, .form-floating textarea:not(:placeholder-shown) ~ label, .form-floating select:not(:placeholder-shown) ~ label {
   color: #999;
   font-size: 12px;
+  margin: 20px 0;
 }
 .form-floating input {
-  height: 44px;
+  height: 50px;
   padding: 20px 12px 6px 12px;
 }
 .form-floating input:focus ~ label, .form-floating input:not(:placeholder-shown) ~ label {
@@ -63,8 +66,9 @@ body {
   padding-bottom: 2px;
 }
 .form-floating textarea ~ label {
-  width: 98%;
+  width: 99%;
   top: 2px;
+  margin-top: 20px;
   padding-top: 12px;
   background-color: #fff;
 }
@@ -82,5 +86,6 @@ body {
   pointer-events: none;
   left: 2px;
   padding-left: 10px;
+  top: 0px;
   transition: 0.2s ease all;
 }
